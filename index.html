@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
 
     <title>Import Test</title>
-    <link rel="import" href="templates.html" id="templates">
-    <script src="bower_components/webcomponentsjs/HTMLImports.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/TemplateEngine.js"></script>
 
 </head>
 <body>
-<div id="insert-template-here"></div>
+<include src="templates/templates.html" ref="blog-post"></include>
+<include src="templates/templates.html" ref="blog-post"></include>
+<include src="templates/templatesOne.html" ref="blog-post"></include>
+<include src="templates/templatesOne.html" ref="blog-post-one-two"></include>
 </body>
 </html>
