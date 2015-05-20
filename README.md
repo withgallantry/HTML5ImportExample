@@ -2,9 +2,9 @@
 Small library that allows you to lazy load html. The library parses HTML and replaces <include> nodes with appropriate HTML blocks from specified template files. Great for lazy loading content after a smaller payload page has rendered. Needs optimization specifically around caching and event listeners.
 
 #Usage
-Simple to use, just include the TemplateEngine.js in the head section of your page.
+Simple to use, just include the HtmlLazyLoad.js in the head section of your page.
 ```javascript
-<script src="js/TemplateEngine.js"></script>
+<script src="js/HtmlLazyLoad.js"></script>
 ```
 </br>
 Add include nodes with a src attribute pointing to your temaplte file and a ref attribute that points to the id of the html to include from the template file.
