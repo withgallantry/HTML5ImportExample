@@ -9,7 +9,7 @@ Simple to use, just include the TemplateEngine.js in the head section of your pa
 </br>
 Add include nodes with a src attribute pointing to your temaplte file and a ref attribute that points to the id of the html to include from the template file.
 ```javascript
-<include src="templateFile.html" ref="blockOne"/>
+<include src="templateFile.html" ref="blockOne"></include>
 ```
 </br>
 Sample template file:
