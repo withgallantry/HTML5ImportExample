@@ -1,4 +1,4 @@
-# Html Lazy Load v0.2
+# Html Lazy Load v0.4
 Small library that allows you to lazy load html. The library parses HTML and replaces <include> nodes with appropriate HTML blocks from specified template files. Great for lazy loading content after a smaller payload page has rendered. Needs optimization specifically around caching and event listeners.
 
 #Usage
